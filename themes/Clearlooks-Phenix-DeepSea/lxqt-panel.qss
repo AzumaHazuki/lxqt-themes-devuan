@@ -670,9 +670,9 @@ VolumePopup > QPushButton:hover {
 
 #WingMenuPlugin QToolButton:pressed {
 	color:				#1a1a1a;
-	background:			qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #d6d4d2, stop:1 #c2bfbc);
+	background:			qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #ccdbe2, stop:0.25 #dbe6eb, stop:0.5 #c6d7df, stop:1 #baced7);
 
-	border:				1px solid #91a9b7;
+	border:				1px solid #7c8891;
 	border-radius:			3px;
 }
 
