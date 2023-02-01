@@ -1,0 +1,131 @@
+/* Panel */
+#panel {
+	color:				#1a1a1a;
+	background:			#eef3f6;
+}
+
+/* Buttons */
+QToolButton::menu-indicator {
+	image:				none;
+}
+
+#closeButton {
+	border:				1px solid transparent;
+	background:			#eef3f6;
+
+	qproperty-icon:			url(lxqt-runner/close.svg);
+	margin:				2px;
+
+	padding:			2px;
+}
+
+#actionButton {
+	border:				1px solid transparent;
+	background:			#eef3f6;
+
+	qproperty-icon:			url(lxqt-runner/down-arrow.svg);
+	margin:				2px;
+
+	padding:			2px;
+}
+
+#closeButton:hover, #actionButton:hover {
+        color:                          #1a1a1a;
+        background:                     #ffffff;
+
+        border:                         1px solid #91a9b7;
+	border-radius:			3px;
+}
+
+#closeButton:pressed, #actionButton:pressed {
+        color:                          #1a1a1a;
+        background:                     #d6d1cd;
+
+        border:                         1px solid #91a9b7;
+	border-radius:			3px;
+}
+
+/* Command Box */
+#commandEd {
+        color:                          #1a1a1a;
+        background:                     #ffffff;
+
+        selection-color:                #ffffff;
+        selection-background-color:     #4376c7;
+
+        padding:                        2px;
+
+        margin:                         2px;
+
+        border:                         1px solid #91a9b7;
+        border-radius:                  3px;
+}
+
+/* Search results list */
+#commandList {
+	background:			#ffffff;
+	color:				#1a1a1a;
+
+	selection-color:		#ffffff;
+	selection-background-color:	#4376c7;
+
+	alternate-background-color:	#ffffff;
+
+	border:				none;
+}
+
+#commandList::item, #commandList::item:alternate {
+	color:				#1a1a1a;
+	background:			#ffffff;
+
+	border:				0px solid transparent;;
+}
+
+#commandList::item:hover, #commandList::item:selected {
+	color:				#ffffff;
+	background:			qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #4376c7, stop:1 #3e67aa);
+
+	border:				1px solid #3c4f5d;
+	border-radius:			3px;
+}
+
+/* Menus */
+QMenu {
+	color:				#1a1a1a;
+	background:			#ffffff;
+
+	min-width:			100px;
+
+	border:				1px solid #1a1a1a;
+}
+
+QMenu::icon {
+	padding-left:			7px;
+}
+
+QMenu::item {
+        color:                          #1a1a1a;
+        background:                     #ffffff;
+
+	border:				1px solid transparent;
+
+        padding-left:                   8px;
+        padding-right:                  20px;
+        padding-top:                    2px;
+        padding-bottom:                 2px;
+
+	margin:				1px;
+}
+
+QMenu::item:selected {
+	color:				#ffffff;
+	background:			qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #4376c7, stop:1 #3e67aa);
+
+	border:				1px solid #3c4f5d;
+	border-radius:			3px;
+}
+
+QMenu::item:disabled {
+	color:				#91a9b7;
+	background:			transparent;
+}

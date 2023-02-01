@@ -128,7 +128,7 @@ QMenu::right-arrow:selected { image: url(arrow-right-selected.svg); }
 	background:			transparent;
         qproperty-icon:                 url(mainmenu.svg);
 
-	padding:			2px;
+	padding:			1px;
 }
 
 #MainMenu QLineEdit {
@@ -213,7 +213,7 @@ QMenu::right-arrow:selected { image: url(arrow-right-selected.svg); }
 /* Taskbar */ 
 #TaskBar, #DesktopSwitch {
 	color:				#1a1a1a;
-	background:			#transparent;
+	background:			transparent;
 }
 
 #TaskBar QToolButton, #DesktopSwitch QToolButton {
@@ -272,12 +272,12 @@ QMenu::right-arrow:selected { image: url(arrow-right-selected.svg); }
         color:                          #1a1a1a;
         background:                     transparent;
 
-	padding:			2px;
+	padding:			1px;
 	margin:				1px;
 }
 
 #QuickLaunch QToolButton:pressed {
-	padding:			2px;
+	padding:			1px;
         margin:				2px;
 }
 

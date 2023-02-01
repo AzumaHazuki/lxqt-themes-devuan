@@ -1,7 +1,7 @@
 /*
 "Clearlooks-Phenix-DeepSea" LXQt theme
 By Azuma Hazuki (wanderinghazuki@gmail.com)
-Created 29 January 2023
+Created 1 February 2023
 */
 
 /* Colors for the bulk panel */
@@ -67,7 +67,7 @@ QMenu {
 
 QMenu QToolButton {
 	color:				#ffffff;
-	background:			#2f5979;
+	background:			#3e67aa;
 
 	font:				bold;
 
@@ -93,9 +93,9 @@ QMenu::item {
 
 QMenu::item:selected {
 	color:				#ffffff;
-	background:			qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #306791, stop:1 #2f5979);
+	background:			qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #4376c7, stop:1 #3e67aa);
 
-	border:				1px solid #000000;
+	border:				1px solid #354765;
 	border-radius:			3px;
 }
 
@@ -136,7 +136,7 @@ QMenu::right-arrow:selected { image: url(arrow-right-selected.svg); }
 	background:			#ffffff;
 
 	selection-color:		#ffffff;
-	selection-background-color:	qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #306791, stop:1 #2f5979);
+	selection-background-color:	qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #4376c7, stop:1 #3e67aa);
 
 	border:				1px solid #91a9b7;
 	border-radius:			3px;
@@ -173,9 +173,9 @@ QMenu::right-arrow:selected { image: url(arrow-right-selected.svg); }
 
 #MainMenu QMenu::item:selected {
 	color:				#ffffff;
-	background:			qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #306791, stop:1 #2f5979);
+	background:			qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #4376c7, stop:1 #3e67aa);
 
-	border:				1px solid #000000;
+	border:				1px solid #354765;
 	border-radius:			3px;
 }
 
@@ -204,9 +204,9 @@ QMenu::right-arrow:selected { image: url(arrow-right-selected.svg); }
 #MainMenu ActionView::item:selected,
 #MainMenu ActionView::item:selected:hover {
 	color:				#ffffff;
-	background:			qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #306791, stop:1 #2f5979);
+	background:			qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #3e67aa, stop:1 #4376c7);
 
-	border:				1px solid #000000;
+	border:				1px solid #354765;
 	border-radius:			3px;
 }
 
@@ -218,14 +218,14 @@ QMenu::right-arrow:selected { image: url(arrow-right-selected.svg); }
 
 #TaskBar QToolButton, #DesktopSwitch QToolButton {
 	color:				#1a1a1a;
-	background:			qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #ffffff, stop:0.5 #fafbfc, stop:1 #f3f7f9);
+	background:			qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #ffffff, stop:1 #e8eff3);
 
 	padding-left:			2px;
 	padding-right:			2px;
 	padding-top:			1px;
 	padding-bottom:			1px;
 
-	border:				1px solid #7c8891;
+	border:				1px solid #788d9a;
 	border-radius:			3px;
 
 	margin-left:			1px;
@@ -237,9 +237,9 @@ QMenu::right-arrow:selected { image: url(arrow-right-selected.svg); }
 #TaskBar QToolButton:on, #TaskBar QToolButton:pressed,
 #DesktopSwitch QToolButton:on, #DesktopSwitch QToolButton:pressed {
 	color:				#1a1a1a;
-	background:			qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #ccdbe2, stop:0.25 #dbe6eb, stop:0.5 #c6d7df, stop:1 #baced7);
+	background:			qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #c2d1db, stop:0.25 #cbd9e1, stop:0.5 #c0d0da, stop:1 #b3c6d1);
 
-	border:				1px solid #7c8891;
+	border:				1px solid #788d9a;
 }
 
 #TaskBar QToolButton:hover, #TaskBar QToolButton:on:hover,
@@ -253,7 +253,7 @@ QMenu::right-arrow:selected { image: url(arrow-right-selected.svg); }
 #TaskBar QToolButton[urgent="true"],
 #TaskBar QToolButton[urgent="true"]:hover {
 	color:				#ffffff;
-	background:			qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #306791, stop:1 #2f5979);
+	background:			qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #3e67aa, stop:1 #4376c7);
 
 	border:				1px solid #000000;
 }
@@ -307,7 +307,7 @@ QCalendarWidget QAbstractItemView {
 
 	border-left:			1px solid #91a9b7;
 	border-right:			1px solid #91a9b7;
-	border-top:			1px solid #7c8891;
+	border-top:			1px solid #788d9a;
 	border-bottom:			1px solid #91a9b7;
 
 	border-radius:			0px;
@@ -320,7 +320,7 @@ QCalendarWidget QAbstractItemView:enabled {
 	background:			#eef3f6;
 
 	selection-color:		#ffffff;
-	selection-background-color:	qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #306791, stop:1 #2f5979);
+	selection-background-color:	qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #4376c7, stop:1 #3e67aa);
 }
 
 QCalendarWidget QAbstractItemView:disabled {
@@ -352,7 +352,7 @@ QCalendarWidget QToolButton::menu-indicator { /* Remove the down arrow */
 
 QCalendarWidget #qt_calendar_navigationbar {
 	color:				#ffffff;
-	background:			qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #306791, stop:1 #2f5979);
+	background:			qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #4376c7, stop:1 #3e67aa);
 
 	font:				bold;
 
@@ -416,7 +416,7 @@ VolumePopup > QSlider {
 #Backlight > SliderDialog > QSlider::groove:vertical, 
 VolumePopup > QSlider::groove:vertical {
 	color:				#1a1a1a;
-	background:			#306791;
+	background:			#3e67aa;
 
 	width:				4px;
 
@@ -553,7 +553,7 @@ VolumePopup > QPushButton:hover {
 #WingMenuPlugin ApplicationsView::item:hover, 
 #WingMenuPlugin ApplicationsView::item:selected {
 	color:				#ffffff;
-	background:			qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #306791, stop:1 #2f5979);
+	background:			qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #4376c7, stop:1 #3e67aa);
 }
 
 #WingMenuPlugin QLineEdit {
@@ -561,7 +561,7 @@ VolumePopup > QPushButton:hover {
 	background:			#ffffff;
 
 	selection-color:		#ffffff;
-	selection-background-color:	qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #306791, stop:1 #2f5979);
+	selection-background-color:	qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #4376c7, stop:1 #3e67aa);
 
 	padding:			2px;
 
@@ -584,7 +584,7 @@ VolumePopup > QPushButton:hover {
 
 #WingMenuPlugin QScrollBar::groove:vertical {
 	color:				#1a1a1a;
-	background:			#306791;
+	background:			#3e67aa;
 
 	width:				4px;
 
@@ -644,7 +644,7 @@ VolumePopup > QPushButton:hover {
 
 #WingMenuPlugin #CategoryButton:hover {
 	color:				#ffffff;
-	background:			qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #306791, stop:1 #2f5979);
+	background:			qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #4376c7, stop:1 #3e67aa);
 
 	border:				1px solid #000000;
 	border-radius:			3px;
@@ -670,9 +670,9 @@ VolumePopup > QPushButton:hover {
 
 #WingMenuPlugin QToolButton:pressed {
 	color:				#1a1a1a;
-	background:			qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #ccdbe2, stop:0.25 #dbe6eb, stop:0.5 #c6d7df, stop:1 #baced7);
+	background:			qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #c2d1db, stop:0.25 #cbd9e1, stop:0.5 #c0d0da, stop:1 #b3c6d1);
 
-	border:				1px solid #7c8891;
+	border:				1px solid #788d9a;
 	border-radius:			3px;
 }
 
@@ -681,7 +681,7 @@ VolumePopup > QPushButton:hover {
         min-width:                      16px;
         min-height:                     16px;
 
-        color:                          #004000;
+        color:                          #000040;
         background:                     #000000;
 
         border:				1px solid #eef3f6;
@@ -690,10 +690,10 @@ VolumePopup > QPushButton:hover {
 }
 
 #CpuLoad, #SysStat {
-        color:                          #00ff00;
-        background:                     #004000;
+        color:                          #0000ff;
+        background:                     #000040;
 
-        qproperty-fontColor:            #00ff00;
+        qproperty-fontColor:            #0000ff;
 
         padding:                        2px;
 }
@@ -704,24 +704,24 @@ VolumePopup > QPushButton:hover {
 }
 
 #SysStat_Graph {
-	color:				#00ff00;
+	color:				#0000ff;
         background:                     #ffffff;
 
         qproperty-gridColor:            rgba(0, 255, 0, 25%);
         qproperty-titleColor:           rgba(255, 255, 255, 75%);
 
         qproperty-cpuSystemColor:       #008000;
-        qproperty-cpuUserColor:         #00ff00;
-        qproperty-cpuNiceColor:         #008000;
-        qproperty-cpuOtherColor:        #004000;
+        qproperty-cpuUserColor:         #0000ff;
+        qproperty-cpuNiceColor:         #000080;
+        qproperty-cpuOtherColor:        #000040;
         qproperty-frequencyColor:       rgba(0, 255, 0, 25%);
 
-        qproperty-memAppsColor:         #00ff00;
-        qproperty-memBuffersColor:      #008000;
-        qproperty-memCachedColor:       #004000;
+        qproperty-memAppsColor:         #0000ff;
+        qproperty-memBuffersColor:      #000080;
+        qproperty-memCachedColor:       #000040;
 
-        qproperty-swapUsedColor:        #008000;
+        qproperty-swapUsedColor:        #000080;
 
-        qproperty-netReceivedColor:     #00ff00;
-        qproperty-netTransmittedColor:  #009000;
+        qproperty-netReceivedColor:     #0000ff;
+        qproperty-netTransmittedColor:  #000090;
 }
