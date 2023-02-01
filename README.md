@@ -3,6 +3,7 @@
 This repository houses Devuan-styled forks of the LXQt Clearlooks theme. As of 31 January/1 February 2023, variants exist for all extant Devuan themes: DarkPurpy (Ascii), Cinnabar (Beowulf), DeepSea (Chimaera), and Sapphire (Daedalus)
 
 Below are previews of the themes running under LXQt 1.2.0. All previews show the Plastik Qt style and the Carbon Openbox theme, along with the respective LXQt theme and palette.
+
 DarkPurpy/Ascii
 ![Clearlooks-Phenix-DarkPurpy](https://user-images.githubusercontent.com/67122280/215932379-88a21756-0640-4578-98f8-c216c16936d9.png)
 
