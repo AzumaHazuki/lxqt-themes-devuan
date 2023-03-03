@@ -1,6 +1,6 @@
 # lxqt-themes-devuan
 
-This repository houses Devuan-styled forks of the LXQt Clearlooks theme. As of March 2023, variants exist for all extant Devuan themes: DarkPurpy (Ascii), Cinnabar (Beowulf), DeepSea (Chimaera), and Sapphire (Daedalus)
+This repository houses Devuan-styled forks of the LXQt Clearlooks theme. As of March 2023, variants exist for all extant Devuan releases (aside from Jessie, which used plain Debian theming).
 
 Clearlooks-Phenix-DarkPurpy (Devuan ASCII)
 ![CPDarkPurpy](https://user-images.githubusercontent.com/67122280/222612411-3978a5f7-2653-4753-8cc9-bac4b2b171ce.png)
