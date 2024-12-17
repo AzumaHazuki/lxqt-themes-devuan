@@ -107,19 +107,19 @@ QScrollBar:vertical {
     background-repeat: repeat-y;
     background-position: center;
     background-attachments: fixed;
-    border: 1px solid #8ea6b4;
+    border: 1px solid #a09d99;
     width: 15px;
     padding: 15px 0px;
 }
 
 QScrollBar::handle:vertical {
     color: #1a1a1a;
-    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #fefeff, stop:0.49 #f5f8fa, stop:0.50 #ecf2f5, stop:1 #dce5eb);
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #fefefe, stop:0.49 #f3f2f1, stop:0.50 #ecebea, stop:1 #dfdedc);
     background-image: url(assets/scrollbars/grip.png);
     background-repeat: no-repeat;
     background-position: center;
     background-attachments: fixed;
-    border: 1px solid #7e909b;
+    border: 1px solid #8b8986;
     margin: 0px -1px;
     min-height: 24px;
 }
@@ -127,7 +127,7 @@ QScrollBar::handle:vertical {
 QScrollBar::handle:hover:vertical,
 QScrollBar::handle:pressed:vertical {
     color: #1a1a1a;
-    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #ffffff, stop:0.49 #ffffff, stop:0.50 #f9fbfc, stop:1 #e7eef2);
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #ffffff, stop:0.49 #fbfbfa, stop:0.50 #f5f4f4, stop:1 #e8e7e5);
     background-image: url(assets/scrollbars/grip.png);
     background-repeat: no-repeat;
     background-position: center;
