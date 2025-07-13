@@ -427,7 +427,7 @@ VolumePopup > QPushButton:pressed,
 }
 
 /* Sliders and Scrollbars */
-LXQtPanel QSlider {
+#Backlight QSlider, VolumePopup QSlider {
     color: #1a1a1a;
     background: transparent;
     border: none;
@@ -435,7 +435,7 @@ LXQtPanel QSlider {
     min-height: 120px;
 }
 
-LXQtPanel QSlider::groove {
+#Backlight QSlider::groove, VolumePopup QSlider::groove {
     color: #1a1a1a;
     background: transparent;
     border: 2px solid transparent;
@@ -445,7 +445,7 @@ LXQtPanel QSlider::groove {
     padding: 2px 0px;
 }
 
-LXQtPanel QSlider::sub-page {
+#Backlight QSlider::sub-page, VolumePopup QSlider::sub-page {
     color: #1a1a1a;
     background: transparent;
     border: 2px solid transparent;
@@ -455,7 +455,7 @@ LXQtPanel QSlider::sub-page {
     padding: 2px 0px;
 }
 
-LXQtPanel QSlider::handle {
+#Backlight QSlider::handle, VolumePopup QSlider::handle {
     color: #eaeaea;
     background: transparent;
     background-image: url(assets/scrollbars/slider.png);
@@ -465,8 +465,8 @@ LXQtPanel QSlider::handle {
     margin: -12px;
 }
 
-LXQtPanel QSlider::handle:hover,
-LXQtPanel QSlider::handle:pressed {
+#Backlight QSlider::handle:hover, VolumePopup QSlider::handle:hover,
+#Backlight QSlider::handle:pressed, VolumePopup QSlider::handle:pressed {
     background-image: url(assets/scrollbars/slider-active.png);
 }
 
